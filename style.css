@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="descriptSion" content="Fanpage dedicada ao Avenged Sevenfold. Conheça a história, os álbuns, integrantes e músicas da banda.">
+
+    <title>Avenged Sevenfold | Fanpage</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav class="navbar">
+            <a href="#inicio" class="logo">A7X</a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#integrantes">Integrantes</a></li>
+                <li><a href="#discografia">Discografia</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- INÍCIO -->
+    <section id="inicio" class="hero">
+
+        <div class="hero-content">
+            <p class="subtitle">WELCOME TO THE FAMILY</p>
+
+            <h1>AVENGED<br>SEVENFOLD</h1>
+
+            <p class="hero-description">
+                A fanpage dedicada a uma das maiores bandas
+                de Heavy Metal da atualidade.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#discografia" class="btn btn-primary">
+                    EXPLORAR ÁLBUNS
+                </a>
+
+                <a href="https://www.youtube.com/@avengedsevenfold"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="btn btn-outline">
+                    YOUTUBE OFICIAL
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="section">
+
+        <div class="section-title">
+            <span>THE LEGACY</span>
+            <h2>SOBRE A BANDA</h2>
+        </div>
+
+        <div class="about-content">
+
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=900"
+                     alt="Show de rock com público">
+            </div>
+
+            <div class="about-text">
+                <h3>Uma história de música e legado</h3>
+
+                <p>
+                    Avenged Sevenfold, também conhecida como A7X,
+                    é uma banda americana de heavy metal formada
+                    em 1999, na Califórnia.
+                </p>
+
+                <p>
+                    Conhecida por sua mistura de heavy metal,
+                    hard rock, metalcore e elementos progressivos,
+                    a banda conquistou fãs no mundo inteiro.
+                </p>
+
+                <p>
+                    Ao longo de sua carreira, lançou álbuns marcantes
+                    e construiu uma identidade musical única,
+                    com performances intensas e composições
+                    memoráveis.
+                </p>
+
+                <a href="https://www.avengedsevenfold.com/"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   class="text-link">
+                    SITE OFICIAL →
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- INTEGRANTES -->
+    <section id="integrantes" class="section dark-section">
+
+        <div class="section-title">
+            <span>THE FAMILY</span>
+            <h2>INTEGRANTES</h2>
+        </div>
+
+        <div class="members-grid">
+
+            <article class="member-card">
+                <img src="https://placehold.co/500x600/151515/ffffff?text=M.+Shadows"
+                     alt="M. Shadows">
+                <div class="member-info">
+                    <h3>M. Shadows</h3>
+                    <p>Vocalista</p>
+                </div>
+            </article>
+
+            <article class="member-card">
+                <img src="https://placehold.co/500x600/151515/ffffff?text=Synyster+Gates"
+                     alt="Synyster Gates">
+                <div class="member-info">
+                    <h3>Synyster Gates</h3>
+                    <p>Guitarra solo</p>
+                </div>
+            </article>
+
+            <article class="member-card">
+                <img src="https://placehold.co/500x600/151515/ffffff?text=Zacky+Vengeance"
+                     alt="Zacky Vengeance">
+                <div class="member-info">
+                    <h3>Zacky Vengeance</h3>
+                    <p>Guitarra base</p>
+                </div>
+            </article>
+
+            <article class="member-card">
+                <img src="https://placehold.co/500x600/151515/ffffff?text=Johnny+Christ"
+                     alt="Johnny Christ">
+                <div class="member-info">
+                    <h3>Johnny Christ</h3>
+                    <p>Baixo</p>
+                </div>
+            </article>
+
+            <article class="member-card">
+                <img src="https://placehold.co/500x600/151515/ffffff?text=Brooks+Wackerman"
+                     alt="Brooks Wackerman">
+                <div class="member-info">
+                    <h3>Brooks Wackerman</h3>
+                    <p>Bateria</p>
+                </div>
+            </article>
+
+        </div>
+
+        <p class="member-note">
+            Formação atual apresentada na fanpage.
+        </p>
+
+    </section>
+
+    <!-- DISCOGRAFIA -->
+    <section id="discografia" class="section">
+
+        <div class="section-title">
+            <span>THE SOUND OF A7X</span>
+            <h2>DISCOGRAFIA</h2>
+        </div>
+
+        <div class="albums-grid">
+
+            <article class="album-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Avenged_Sevenfold_-_Sounding_the_Seventh_Trumpet.jpg"
+                     alt="Sounding the Seventh Trumpet">
+                <h3>Sounding the Seventh Trumpet</h3>
+                <p>2001</p>
+                <a href="https://open.spotify.com/search/Avenged%20Sevenfold%20Sounding%20the%20Seventh%20Trumpet"
+                   target="_blank" rel="noopener noreferrer">OUVIR ÁLBUM ↗</a>
+            </article>
+
+            <article class="album-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/1/19/Waking_the_Fallen.jpg"
+                     alt="Waking the Fallen">
+                <h3>Waking the Fallen</h3>
+                <p>2003</p>
+                <a href="https://open.spotify.com/search/Avenged%20Sevenfold%20Waking%20the%20Fallen"
+                   target="_blank" rel="noopener noreferrer">OUVIR ÁLBUM ↗</a>
+            </article>
+
+            <article class="album-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/09/City_of_Evil.jpg"
+                     alt="City of Evil">
+                <h3>City of Evil</h3>
+                <p>2005</p>
+                <a href="https://open.spotify.com/search/Avenged%20Sevenfold%20City%20of%20Evil"
+                   target="_blank" rel="noopener noreferrer">OUVIR ÁLBUM ↗</a>
+            </article>
+
+            <article class="album-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Avenged_Sevenfold_self-titled.png"
+                     alt="Avenged Sevenfold">
+                <h3>Avenged Sevenfold</h3>
+                <p>2007</p>
+                <a href="https://open.spotify.com/search/Avenged%20Sevenfold%20Self%20Titled"
+                   target="_blank" rel="noopener noreferrer">OUVIR ÁLBUM ↗</a>
+            </article>
+
+            <article class="album-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/3/36/Nightmare_%28Avenged_Sevenfold%29.jpg"
+                     alt="Nightmare">
+                <h3>Nightmare</h3>
+                <p>2010</p>
+                <a href="https://open.spotify.com/search/Avenged%20Sevenfold%20Nightmare"
+                   target="_blank" rel="noopener noreferrer">OUVIR ÁLBUM ↗</a>
+            </article>
+
+            <article class="album-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/1/17/Hail_to_the_King_cover.jpg"
+                     alt="Hail to the King">
+                <h3>Hail to the King</h3>
+                <p>2013</p>
+                <a href="https://open.spotify.com/search/Avenged%20Sevenfold%20Hail%20to%20the%20King"
+                   target="_blank" rel="noopener noreferrer">OUVIR ÁLBUM ↗</a>
+            </article>
+
+            <article class="album-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/0/0b/The_Stage_A7X.jpg"
+                     alt="The Stage">
+                <h3>The Stage</h3>
+                <p>2016</p>
+                <a href="https://open.spotify.com/search/Avenged%20Sevenfold%20The%20Stage"
+                   target="_blank" rel="noopener noreferrer">OUVIR ÁLBUM ↗</a>
+            </article>
+
+            <article class="album-card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Avenged_Sevenfold_-_Life_Is_But_a_Dream....png"
+                     alt="Life Is But a Dream">
+                <h3>Life Is But a Dream...</h3>
+                <p>2023</p>
+                <a href="https://open.spotify.com/search/Avenged%20Sevenfold%20Life%20Is%20But%20a%20Dream"
+                   target="_blank" rel="noopener noreferrer">OUVIR ÁLBUM ↗</a>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!-- YOUTUBE -->
+    <section class="youtube-section">
+
+        <div class="youtube-content">
+            <span>WATCH AND LISTEN</span>
+
+            <h2>EXPERIMENTE O SOM DO A7X</h2>
+
+            <p>
+                Confira videoclipes, apresentações ao vivo,
+                lançamentos e conteúdos da banda.
+            </p>
+
+            <a href="https://www.youtube.com/@avengedsevenfold"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="btn btn-primary">
+                <span>▶</span> ACESSAR YOUTUBE
+            </a>
+        </div>
+
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" class="section">
+
+        <div class="section-title">
+            <span>MEMORIES</span>
+            <h2>GALERIA</h2>
+        </div>
+
+        <div class="gallery-grid">
+
+            <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=800"
+                 alt="Apresentação de rock ao vivo">
+
+            <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?w=800"
+                 alt="Festival de música">
+
+            <img src="https://images.unsplash.com/photo-1501612780327-45045538702b?w=800"
+                 alt="Show com iluminação">
+
+            <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=800"
+                 alt="Público em show">
+
+        </div>
+
+    </section>
+
+    <!-- CURIOSIDADES -->
+    <section class="section dark-section">
+
+        <div class="section-title">
+            <span>BEHIND THE MUSIC</span>
+            <h2>CURIOSIDADES</h2>
+        </div>
+
+        <div class="facts-grid">
+
+            <div class="fact-card">
+                <h3>1999</h3>
+                <p>Ano de formação da banda na Califórnia.</p>
+            </div>
+
+            <div class="fact-card">
+                <h3>A7X</h3>
+                <p>Abreviação popular do nome Avenged Sevenfold.</p>
+            </div>
+
+            <div class="fact-card">
+                <h3>THE REV</h3>
+                <p>Jimmy Sullivan deixou um legado importante na história da banda.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer-content">
+
+            <h2>A7X</h2>
+
+            <p>
+                Made by a fan, for the fans.
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://www.instagram.com/avengedsevenfold/"
+                   target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
+
+                <a href="https://www.youtube.com/@avengedsevenfold"
+                   target="_blank" rel="noopener noreferrer">YOUTUBE</a>
+
+                <a href="https://www.avengedsevenfold.com/"
+                   target="_blank" rel="noopener noreferrer">WEBSITE</a>
+
+            </div>
+
+            <p class="copyright">
+                © 2026 Fanpage Avenged Sevenfold.
+                Site de fã não oficial, sem vínculo com a banda.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <button id="backToTop" aria-label="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
